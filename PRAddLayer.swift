@@ -13,7 +13,7 @@ extension UITextField{
     {
         
         let layer : CALayer = CALayer.init()
-        layer.frame = CGRect.init(x: 0, y: textField.frame.size.height - 5, width: textField.frame.size.width, height: 0.5)
+        layer.frame = CGRect.init(x: 0, y: textField.frame.size.height - 2, width: textField.frame.size.width, height: 0.5)
         layer.backgroundColor = color.cgColor
         textField.layer.addSublayer(layer);
         //textField.attributedPlaceholder = NSAttributedString(string: placeHolder, attributes: [NSForegroundColorAttributeName : color])
